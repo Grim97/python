@@ -1,6 +1,6 @@
-import requests
-import json
-import os
+# import requests
+# import json
+# import os
 
 def owapi():
     apikey = os.environ.get( 'BOT2' )
@@ -22,7 +22,7 @@ def owapi():
     predic()
 
 #Uncomment below one line for #Complete RUN
-owapi()
+#owapi()
 
 #Uncomment below code to run this script independently
 # if __name__ == "__main__":
